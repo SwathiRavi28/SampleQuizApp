@@ -1,0 +1,22 @@
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+   height: 30vh;
+    width: 30vh; 
+    text-align: center;
+    background-color: rgb(231, 241, 241);
+    border-radius: 3vh;
+    border: solid black 0.5vh;
+    padding: 10vh;
+}
+.answer-section{
+    display: flex;
+    flex-direction: column;
+    padding: 4vh;
+}

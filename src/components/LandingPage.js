@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import '../style/landing.css';
+import '../style/styles.css';
 import swal from 'sweetalert';
 
 const NAME = "name";

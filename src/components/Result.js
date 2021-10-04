@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
-import Img from '../assets/img.jpg'
+import Img from '../assets/img.jpg';
+import '../style/styles.css';
 
 const NAME="name";
 

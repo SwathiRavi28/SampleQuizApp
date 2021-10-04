@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react';
-import '../style/landing.css';
+import '../style/styles.css';
 import dataset from '../data';
 import swal from 'sweetalert';
 

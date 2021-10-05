@@ -2,6 +2,8 @@ import React,{useEffect,useState} from 'react';
 import '../style/styles.css';
 import dataset from '../data';
 import swal from 'sweetalert';
+import Latex from 'react-latex';
+import 'katex/dist/katex.min.css';
 
 const ANY = "Any";
 const NO_OF_QUE = 4;
@@ -101,13 +103,13 @@ function Quiz(props) {
         <div className="landing">
             <div className="quiz-container">
                 <div className='question-section'>
-                   {currentdata.question}
+              <Latex >{currentdata.question}</Latex>
 			    </div>
 			    <div className='answer-section'>
-                    <button className="ans-button" onClick={() => chooseAns(ONE)}>{currentdata.option1}</button>
-                    <button className="ans-button" onClick={() => chooseAns(TWO)}>{ currentdata.option2}</button>
-                    <button className="ans-button" onClick={() => chooseAns(THREE)}>{currentdata.option3}</button>
-                    <button className="ans-button" onClick={() => chooseAns(FOUR)}>{currentdata.option4}</button>
+                    <button className="ans-button" onClick={() => chooseAns(ONE)}><Latex >{currentdata.option1}</Latex></button>
+                    <button className="ans-button" onClick={() => chooseAns(TWO)}><Latex>{currentdata.option2}</Latex></button>
+                    <button className="ans-button" onClick={() => chooseAns(THREE)}><Latex >{currentdata.option3}</Latex></button>
+                    <button className="ans-button" onClick={() => chooseAns(FOUR)}><Latex>{currentdata.option4}</Latex></button>
                     <div className="navigation-container">
                         {currentIndex!=0?
                             <button className="nav-previousbutton" onClick={() => handleNavigation(PREVIOUS)}>Previous</button>:null}

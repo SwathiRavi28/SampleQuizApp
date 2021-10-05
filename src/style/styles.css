@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .container{
    max-height: 60vh;
     max-width: 50vh; 
@@ -30,8 +31,6 @@
 
 .question-section{
     font-family: Eina01,sans-serif;
-  font-size: 2.5vh;
-  font-weight: 700;
   justify-content: center;
   line-height: 4vh;
   min-width: 5vh;
@@ -170,6 +169,7 @@ button:active:not(:disabled):before {
     height: 100%;
     align-items: center;
     justify-content: center;
+    font-family: 'roboto', sans-serif;
 }
 .result-containeritems{
     font-family: Eina01,sans-serif;
@@ -194,28 +194,26 @@ h1{
 .Review-container{
     background-color: #1abc9c;
     border:solid 2px #0c0d0d;
-    border-radius: 10%;
-    display: flex;
-    justify-content: space-between;
-    max-height: 15vh;
+    border-radius: 5%;
     font-size: 2vh;
     line-height: 2vh;
-    margin: .8vh;
-    padding: 1vh;
+    font-family: 'roboto', sans-serif;
+    
 }
-span{
-    margin:0 2vh 0 1vh;
- line-height: 2.5vh;
+.que-ans{
+    left: 0;
+    line-height: 2vh;    
 }
+ul {
+    list-style-type: none;
+    padding-left: 0pt;
+  }
+
 .diff-level{
-    border: #0c0d0d 2px solid;
-    background-color:  rgb(240, 167, 11);
-    padding: .5vh;
-    font-weight: 600;
-    font-size: 2vh;
-    border-radius: .5vh;
-    max-width: 6vh;
-    max-height: 2vh;
+    line-height: 2.5vh;
+    font-weight: 700;
+    color: #fff;
+    
 }
 .heading{
     font-size: 2.5vh;
@@ -263,7 +261,30 @@ span{
 }
 .Review-container{
     font-size: 1.8vh;
-    padding: 1vh;
+}
+.Review-container{
+    background-color: #1abc9c;
+    border:solid 2px #0c0d0d;
+    border-radius: 5%;
+    font-size: 1.5vh;
+    line-height: 1vh;
+    font-family: 'roboto', sans-serif;
+    
+}
+.que-ans{
+    left: 0;
+    line-height: 1.5vh;    
+}
+ul {
+    list-style-type: none;
+    padding-left: 0pt;
+  }
+
+.diff-level{
+    line-height: 2.5vh;
+    font-weight: 700;
+    color: #fff;
+    
 }
 img{
     height: 4vh;

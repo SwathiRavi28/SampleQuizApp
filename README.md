@@ -3,7 +3,7 @@
 - **Sample Quiz App made with ReactJS.**
 
 ## Live site
-- [Link](https://samplequizapp-swathi.netlify.app)
+- [Link](https://sample-quiz-app.netlify.app)
 
 ## Implementation Highlights
 
